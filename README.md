@@ -1,4 +1,4 @@
-# Repositório com a implementação de alguns algoritmos de Machine Learning
+# Algoritmos
 
 ## 1. __Perceptron Learning Algorithm (PLA)__: 
 Algoritmo de aprendizado supervisionado, que é considerado uma rede neural de camada única. O Perceptron é um classificador binário que utiliza retas. 
