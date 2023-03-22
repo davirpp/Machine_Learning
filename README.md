@@ -29,4 +29,4 @@ Exemplo dos dados:
 
 ![Imgur](https://imgur.com/o8kcWNb.png)
 
-No notebook é possível olhar o passo a passo do algoritmo é observar sua acurácia, vale a pena ressaltar também que, dependendo do _k_ e _p_ escolhidos, a acurácia se altera, visto que os parâmetros do modelo estão sendo alterados.
+No notebook - que pode ser acessado [clicando aqui](https://github.com/davirpp/Machine_Learning/blob/master/K_Nearest_Neighbors.ipynb) - é possível observar o passo a passo do algoritmo é observar sua acurácia, vale a pena ressaltar também que, dependendo do _k_ e _p_ escolhidos, a acurácia se altera, visto que os parâmetros do modelo estão sendo alterados.
