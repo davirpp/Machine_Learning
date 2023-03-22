@@ -19,7 +19,9 @@ No notebook - que pode ser acessado [clicando aqui](https://github.com/davirpp/M
 
 
 ## 2. __K-Nearest Neighbors (KNN)__:
-Algoritmo de aprendizado supervisionado simples que é utilizado como classificador. O funcionamento básico do algoritmo é simples: dado um ponto novo, calcule a distância desse ponto para todos os outros pontos ja rotulados. Com isso, você pega os _k_ mais próximos - por isso geralmente o k é um número ímpar, para ter um vencedor - e considera a classificação do ponto novo o rótulo que mais apareceu nos k mais próximos. Como na imagem abaixo: ![Imgur](https://imgur.com/mJvaDTf.png)
+Algoritmo de aprendizado supervisionado simples que é utilizado como classificador. O funcionamento básico do algoritmo é simples: dado um ponto novo, calcule a distância desse ponto para todos os outros pontos ja rotulados. Com isso, você pega os _k_ mais próximos - por isso geralmente o k é um número ímpar, para ter um vencedor - e considera a classificação do ponto novo o rótulo que mais apareceu nos k mais próximos. Como na imagem abaixo: 
+
+![Imgur](https://imgur.com/mJvaDTf.png)
 
 Nessa imagem, quando fazemos k=3, temos mais representantes da Classe B, logo com k=3, o ponto vermelho seria classificado como Classe B. Porém com k=6, temos mais representantes da Classe A, logo com k=6, o ponto vermelho seria classificado como Classe A. 
 Um ponto importante a se destacar é que, apesar da imagem estar parecendo com um círculo representando o k, na realidade esse círculo é utilizado apenas para demonstrar os k pontos mais próximos e diferenciá-los dos demais.
