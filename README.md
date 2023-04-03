@@ -32,3 +32,14 @@ Exemplo dos dados:
 ![Imgur](https://imgur.com/o8kcWNb.png)
 
 No notebook - que pode ser acessado [clicando aqui](https://github.com/davirpp/Machine_Learning/blob/master/K_Nearest_Neighbors.ipynb) - é possível observar o passo a passo do algoritmo é observar sua acurácia, vale a pena ressaltar também que, dependendo do _k_ e _p_ escolhidos, a acurácia se altera, visto que os parâmetros do modelo estão sendo alterados.
+
+## 3. __Regressão Linear__:
+É um algoritmo que deve ser utilizado quando se deseja realizar previsões de uma variável dependente. Ela é feita ajustando os pontos do gráfico a uma reta, querendo minimizar os erros quadráticos, ou seja, minimizando o somatório das distâncias de cada ponto até a reta, como na figura abaixo:
+
+![Imgur](https://imgur.com/Zjderf0.png)
+
+Então após uma prova matemática, o resultado obtido que temos para calcular os pesos dessa função é tido por: 
+
+$$ w = X^\dagger y  \text{    onde,  } X^\dagger = (X^TX)^{-1} X^T$$ 
+
+No notebook - que pode ser acessado [clicando aqui](https://github.com/davirpp/Machine_Learning/blob/master/Linear_Regression.ipynb) - tem exemplo de uma previsão da renda mensal brasileira, super simples.
